@@ -28,7 +28,7 @@ module.exports = {
   } , devServer: {
     compress: true,
     inline: true,
-    port: '5000',
+    port: '3000',
     allowedHosts: [
         'https://mon-app-api-production.up.railway.app/'
     ]
