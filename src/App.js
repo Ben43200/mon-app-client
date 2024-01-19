@@ -27,7 +27,7 @@ const apiCall = () => {
 //     //this console.log will be in our frontend console
 //     console.log(data)
 //   })
-    fetch("http://localhost:8080")
+    fetch("https://mon-app-api-production.up.railway.app")
       // .then(res => res.json())
       // .then(data => this.setState({ name: data.name }))
       .then(data => {
